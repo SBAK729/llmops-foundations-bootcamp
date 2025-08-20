@@ -13,7 +13,7 @@ logging.basicConfig(
 
 # Regex patterns for PII
 EMAIL_PATTERN = r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}'
-PHONE_PATTERN = r'\b\d{3}[-.]?\d{3}[-.]?\d{4}\b'
+PHONE_PATTERN = r'\b\d{4}[-.]?\d{4}[-.]?\d{4}\b'
 
 def detect_pii(text: str) -> bool:
     """Return True if PII (email/phone) is detected."""
@@ -24,7 +24,7 @@ def simulate_chatbot_response(user_input: str) -> str:
     responses = [
         "Sure, I can help you with that!",
         "Please provide your email so I can send details.",
-        "Our support number is +2519-1203-3567.",
+        "Our support number is 2519-1203-3567.",
         "Oops, something went wrong."
     ]
     # Simulate latency
