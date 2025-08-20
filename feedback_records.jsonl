@@ -1,0 +1,3 @@
+{"timestamp": "2025-08-20T10:09:19.179860+00:00", "feedback_id": "05d8d07d-8c4b-42aa-b880-5ecff452dabd", "user_id": "12345", "feedback_type": "bug_report", "description": "Bot gave wrong answer to refund request."}
+{"timestamp": "2025-08-20T10:12:01.944446+00:00", "feedback_id": "689c0e05-a492-4801-9eae-b04e015d8178", "user_id": "12345", "feedback_type": "bug_report", "description": "Bot gave wrong answer to refund request."}
+{"timestamp": "2025-08-20T10:12:01.945817+00:00", "feedback_id": "71e75748-0916-45bf-b3ad-e07cc5c893e9", "user_id": "67890", "feedback_type": "feature_request", "description": "Add support for billing FAQs."}
